@@ -1360,6 +1360,7 @@ body.darkmode {
 }
 .btn-79 {
   -webkit-tap-highlight-color: transparent;
+  appearance: button;
   -webkit-appearance: button;
   background-color: #000;
   background-image: none;
@@ -1372,6 +1373,7 @@ body.darkmode {
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
+  mask-image:  -webkit-radial-gradient(#000000, #000000);
   -webkit-mask-image: -webkit-radial-gradient(#000000, #000000);
   padding: 0;
 }
@@ -1383,7 +1385,7 @@ body.darkmode {
 }
 .btn-79 svg {
   display: block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .btn-79 [hidden] {
   display: none;
@@ -1396,6 +1398,7 @@ body.darkmode {
   display: grid;
   place-items: center;
   height: var(--height);
+  mask-image: none;
   -webkit-mask-image: none;
   padding: 0 3rem;
   position: relative;
@@ -1539,6 +1542,13 @@ textarea:focus{
 
 .color-blue{
   color: hsl(207, 56%, 45%);
+}
+
+.contact-map{
+  height: 25rem;
+  width: 100rem;
+  margin: 155px;
+  align-items: center;
 }
 
 
