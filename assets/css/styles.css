@@ -1546,8 +1546,8 @@ textarea:focus{
 
 .contact-map{
   height: 25rem;
-  width: 100rem;
-  margin: 155px;
+  width: 70rem;
+  margin: auto;
   align-items: center;
 }
 
@@ -1555,6 +1555,7 @@ textarea:focus{
 /*=============== FOOTER ===============*/
 
 .footer__container{
+  margin-top: 100px;
   padding: 3rem 0 7rem;
   text-align: center;
 }
@@ -1916,6 +1917,20 @@ textarea:focus{
     -o-border-radius: 20px;
 }
 
+.contact-map{
+  height: 7.5rem;
+  width: 20rem;
+  /* margin: 50px 50px; */
+  margin-top: 5rem;
+  align-items: center;
+}
+
+.footer__container{
+  margin-top: 300px;
+  padding: 3rem 0 7rem;
+  text-align: center;
+}
+
 }
 
 
@@ -2041,6 +2056,20 @@ textarea:focus{
     justify-content: center;
     column-gap: 8rem;
    }
+
+   .contact-map{
+    height: 15rem;
+    width: 45rem;
+    /* margin: 50px 50px; */
+    margin-top: 5rem;
+    align-items: center;
+  }
+
+  .footer__container{
+    margin-top: 200px;
+    padding: 3rem 0 7rem;
+    text-align: center;
+  }
 }
 
 
@@ -2137,6 +2166,13 @@ textarea:focus{
     bottom: 5rem;
   }
 
+  .contact-map{
+    /* height: 225rem; */
+    /* width: 100rem; */
+    /* margin-right: 155px; */
+    align-items: center;
+  }
+
   
 }
 
@@ -2166,6 +2202,20 @@ textarea:focus{
 
   .home__perfil img{
     width: 400px;
+  }
+
+  .contact-map{
+    height: 15rem;
+    /* width: 80rem; */
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  
+  .footer__container{
+    margin-top: 400px;
+    padding: 3rem 0 7rem;
+    text-align: center;
   }
 }
 
@@ -2366,6 +2416,21 @@ textarea:focus{
 
   .contact__form{
     row-gap: 2.5rem;
+  }
+
+  .contact-map{
+    height: 15rem;
+    /* width: 150rem; */
+    /* margin-top: 100px; */
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  
+  .footer__container{
+    margin-top: 350px;
+    padding: 3rem 0 7rem;
+    text-align: center;
   }
 
   .footer__container{
