@@ -1,27 +1,27 @@
 /*=============== Pre loader ===============*/
-var tl = gsap.timeline()
+// var tl = gsap.timeline()
 
-tl.from(".loader h3" ,{
-  x:40,
-  opacity:0,
-  duration:2,
-  stagger:0.2
-})
+// tl.from(".loader h3" ,{
+//   x:40,
+//   opacity:0,
+//   duration:2,
+//   stagger:0.2
+// })
 
-tl.to(".loader h3",{
-  opacity:0,
-  x:-10,
-  duration:1,
-  stagger:0.1
-})
+// tl.to(".loader h3",{
+//   opacity:0,
+//   x:-10,
+//   duration:1,
+//   stagger:0.1
+// })
 
-tl.to(".loader",{
-  opacity:0
-})
+// tl.to(".loader",{
+//   opacity:0
+// })
 
-tl.to(".loader",{
-  display:"none"
-})
+// tl.to(".loader",{
+//   display:"none"
+// })
 
 const body = document.querySelector('body');
 const btn = document.querySelector('.btn');
