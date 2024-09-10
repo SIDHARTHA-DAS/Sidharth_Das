@@ -109,8 +109,8 @@ img {
 
 .btn{
   background-color: #ececec;
-  width: 3.5em;
-  height: 2em;
+  width: 3.0em;
+  height: 1.5em;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -127,7 +127,7 @@ img {
 .btn__indicator{
   background-color: #ececec;
   width: 1.1em;
-  height: 1.4em ;
+  height: 1.0em ;
   border-radius:50% ;
   -webkit-border-radius:50% ;
   -moz-border-radius:50% ;
@@ -152,15 +152,15 @@ img {
 
 .btn__icon{
   color: #FFB200;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .darkmode .btn__indicator{
-  transform: translateX(2em);
-  -webkit-transform: translateX(2em);
-  -moz-transform: translateX(2em);
-  -ms-transform: translateX(2em);
-  -o-transform: translateX(2em);
+  transform: translateX(1.4em);
+  -webkit-transform: translateX(1.4em);
+  -moz-transform: translateX(1.4em);
+  -ms-transform: translateX(1.4em);
+  -o-transform: translateX(1.4em);
   background-color: #4c4b4b;
   box-shadow: 0 8px 40px rgba(0,0,0, .3);
 }
